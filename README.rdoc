@@ -1,28 +1,78 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Portfolio Adrien Dubois
+25.05.2016
+─
+Adrien Dubois
+Rue de Hennin 93
+1050 Ixelles
+Brussels - Belgium
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+What am I building?
+
+I am building a blog/portfolio, a personal site where I can show my works and have people contact me.
+
+
+Who am I building it for?
+
+I am doing it for myself and for potentials employers/clients.
+
+
+What features will it have?
+
+  Posts
+    Create / Edit / Destroy.
+    Markdown.
+    Syntax highlighting.
+    Comments (Disqus).
+
+
+  Projects
+    Create / Edit / Destroy.
+    Comments (Disqus).
+
+
+  Contact
+    Contact form.
+    Links to professional social networks (GitHub, LinkedIn, ¿Flickr?).
+    Sendgrid.
+
+
+  User
+    Admin user (Devise).
+
+
+User Stories:
+
+  As a user, I want to be able to create posts so that I can share what I am learning on my blog.
+
+  As a user, I want to be able to add, edit and destroy my posts so that I can manage my blog.
+
+  As a user, I want to be able to write post in markdown format so that it’s easy for me to write posts.
+
+  As a user, I want to be able to highlight the code so that it is easily readable.
+  As a user, I want to show my visitors and employers/clients several examples of the works I have done.
+
+  As a user, I want to have the visitors to be able to contact me via email or via the website.
+
+
+Modeling the data
+
+  Post
+    Title:string
+    Content:string
+
+  Project
+    Title:string
+    Description:text
+    link:string
+
+  User
+
+Pages we need in the website
+
+  Home
+  Posts#index
+  Posts#show
+  Projects#index
+  Project#show
+  Contact
