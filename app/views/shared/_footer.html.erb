@@ -1,1 +1,55 @@
-_footer.html.erb
+<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12" style="width: 21%;">
+                  <h3 style="margin-top: 0;">Contact & Social Media </h3>
+                    <ul class="socials">
+                      <li><a title='Send me an email' type="button" data-toggle="modal" data-target="#emailmodal" data-whatever="adrien.dubois.be@gmail.com"><i class="fa fa-envelope"></i> </a> </li>
+                      <li> <a title='GitHub' href="https://github.com/mrngview" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> </a> </li>
+                      <li> <a title='LinkedIn' href="https://be.linkedin.com/in/adrien-dubois-a374a256" target="_blank"> <i class="fa fa-linkedin"></i> </a> </li>
+                      <li> <a title='Flickr' href="https://www.flickr.com/photos/jakadih/albums" target="_blank"> <i class="fa fa-flickr" aria-hidden="true"></i> </a> </li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                  <p class="pull-right"> Copyright © 2016 Adrien Dubois.</p><br>
+                  <p class="pull-right"> All right reserved. </p>
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </div>
+
+
+    <div class="modal fade" id="emailmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">We'd Love to Hear From You!</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Name</label>
+                <input type="text" class="form-control" placeholder="Your name" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Email</label>
+                <textarea class="form-control" placeholder="@email" id="message-text"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Message</label>
+                <textarea class="form-control" placeholder="Type your message here..." id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
