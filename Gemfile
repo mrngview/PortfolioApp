@@ -28,6 +28,9 @@ gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'sass', '~> 3.4', '>= 3.4.22'
 # Compass
 gem 'compass', '~> 1.0', '>= 1.0.3'
+#FontAwesome
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.0'
+gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
