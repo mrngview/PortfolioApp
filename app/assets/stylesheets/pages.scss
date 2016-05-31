@@ -8,13 +8,14 @@
 .banner {
   color: #000;
   text-align: center;
-  font-family: 'Covered By Your Grace', cursive;
+  /* font-family: 'Covered By Your Grace', cursive; */ //defined in .body in application.css
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 45px;
 }
 
 .banner p {
@@ -58,8 +59,8 @@ svg{
     border: 1px solid #000;
     font-size: 30px;
     padding: 5px 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    /* margin-bottom: 5px; */
 }
 
 .bannerbtn:hover {
@@ -72,3 +73,13 @@ svg{
 
 /* /BANNER */
 
+
+/* PROJECTS */
+
+.projects{
+  margin-bottom: 45px;
+  padding-top: 45px;
+  border-top: 1px solid #000;
+}
+
+/* /PROJECTS */
