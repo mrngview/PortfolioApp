@@ -21,7 +21,8 @@
 .banner p {
   font-size: 80px;
   font-weight: lighter;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  letter-spacing: 30px;
 }
 
 /* GLITCH EFFECT */
@@ -52,12 +53,33 @@ svg{
 /* /BANNER */
 
 
+/* ABOUT */
+
+.about {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.boxstyle {
+  width: 522px;
+  height: 400px;
+  margin: auto auto;
+}
+
+.adrimage {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+/* /ABOUT */
+
 /* PROJECTS */
 
 .projects{
-  margin-bottom: 45px;
-  padding-top: 45px;
-  border-top: 1px solid #000;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* /PROJECTS */
