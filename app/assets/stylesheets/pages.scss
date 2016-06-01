@@ -55,8 +55,12 @@ svg{
 
 /* ABOUT */
 
-.about {
-  width: 100%;
+.aboutwrapper { // Wrapper that contains about container
+  background-color: #FAFAFA;
+  margin-top: 120px;
+}
+
+.about { // Container About
   margin: 0 auto;
   margin-bottom: 150px;
 }
@@ -71,6 +75,23 @@ svg{
   height: 400px;
   width: 400px;
   border-radius: 50%;
+}
+
+
+@keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* /ABOUT */
