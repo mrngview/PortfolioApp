@@ -1,0 +1,53 @@
+/* MODAL */
+
+.modal.custom {
+    outline:none;
+
+}
+
+.modal.custom .modal-dialog {
+    width:90%;
+    margin:0 auto;
+}
+
+.modaltext {
+  font-weight: 400;
+}
+
+.adrimage {
+  margin: 55px 0;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+/* /MODAL */
+
+/* ABOUT */
+
+@keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* /ABOUT */
+
+/* PROJECTS */
+
+.projects{
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* /PROJECTS */
