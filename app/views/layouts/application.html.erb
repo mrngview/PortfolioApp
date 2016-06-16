@@ -19,6 +19,18 @@
 </head>
 <body>
 
+<!-- /Video Background -->
+  <!-- <video src="https://02-lvl3-pdl.vimeocdn.com/01/2041/0/10208961/17512214.mp4?expires=1466032664&token=0352f1ca6962221034682" type='video/mp4' autoplay loop muted></video> -->
+
+  <!-- <video >
+    <source src="././assets/videos/Sunset-Lapse.mp4" type="video/mp4" />
+    <source src="././assets/videos/Sunset-Lapse.ogv" type="video/ogv"/>
+    <source src="././assets/videos/Sunset-Lapse.webm" type="video/webm"/>
+  </video> -->
+
+  <%= video_tag("Sunset-Lapse.mp4", :class => "video", autoplay: :autoplay, loop: :loop,) %>
+<!-- /Video Background -->
+
 <!-- NavBar -->
   <%= render './shared/nav' %>
 <!-- /NavBar -->
