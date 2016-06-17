@@ -17,25 +17,37 @@
 
 
 body  {
-  background: transparent;
   color: #000;
   font-family: 'Raleway', sans-serif;
   margin: 0;
+  position: relative;
+  z-index: -50;
   /*width: 80%;
   margin: 0 auto;*/
+}
+
+.background  {
+  background-image: url("vintage_tv_trans.png"); /* linear-gradient(-225deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.30) 50%),  */
+  z-index: -50;
+  height: 100vh;
 }
 
 /* VIDEO BACKGROUND */
 
 .video {
-  position: fixed;
+  position: absolute;
+  left: 398px;
+  top: 50px;
+  height: 290px;
+  border-radius: 50px;
+  /*position: fixed;
   min-width: 100%;
   min-height: 100%;
   top: 50%;
   left:50%;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: -100;
-  filter: brightness(500%); /* Invalid attibute */
+  transform: translateX(-50%) translateY(-50%);*/
+   z-index: -100;
+  /*-webkit-filter: opacity(0.3);*/
 }
 
 /* /VIDEO BACKGROUND */
